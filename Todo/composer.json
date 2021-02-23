@@ -1,0 +1,27 @@
+{
+    "name": "girisoft/todo",
+    "version": "dev-master",
+    "description": "",
+    "authors": [
+        {
+            "name": "Dev Giri",
+            "email": "dev.giridhari@gmail.com"
+        }
+    ],
+    "require": {
+        "tcg/voyager": "1.4.x-dev",
+    },
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Todo\\": ""
+        }
+    }
+}
